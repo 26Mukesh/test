@@ -1,0 +1,25 @@
+{
+  "name": "mukesh",
+  "version": "1.0.0",
+  "description": "inhence mongoose learning",
+  "scripts": {
+    "start": "nodemon server.js",
+    "debug": "nodemon --inspect server.js"
+  },
+  "author": "mukesh",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.7",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "nodemon": "^1.19.4",
+    "path": "^0.12.7",
+    "socket.io": "^2.3.0",
+    "winston": "^3.2.1"
+  }
+}
